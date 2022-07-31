@@ -2,6 +2,45 @@ html {
     background-color: black;
 }
 
-.navbar {background-color: rgb(173, 133, 211) !important;
+.navbar {background-color: rgb(105, 105, 105) !important;
 
 }
+
+.header-or {
+    height: 500px;
+    border-radius: 40px;
+    margin: 0px 40px 30px 40px;
+    max-width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url(https://www.tvinsider.com/wp-content/uploads/2022/03/olivia-rodrigo-driving-home-2-u-a-sour-film.jpeg);
+
+}
+
+.header-jd {
+    height: 500px;
+    border-radius: 40px;
+    margin: 0px 40px 30px 40px;
+    max-width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url(https://prowly-uploads.s3.eu-west-1.amazonaws.com/uploads/landing_page/cover_photo/60594/8844e57983a6c013d0871b57a233277d.jpg);
+
+}
+
+body {
+    background-color: rgb(0, 0, 0) !important;
+    color: white;
+}
+
+main {
+    background-color: black;
+    color: white;
+}
+
+.artista-banner {
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    margin: 20px;
+
+}
+
+
