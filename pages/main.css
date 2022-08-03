@@ -13,7 +13,8 @@ html {
     max-width: 100%;
     color: rgb(255, 255, 255);
     background-image: url(https://www.tvinsider.com/wp-content/uploads/2022/03/olivia-rodrigo-driving-home-2-u-a-sour-film.jpeg);
-
+ 
+    background-repeat: no-repeat;
 }
 
 .header-jd {
@@ -44,3 +45,115 @@ main {
 }
 
 
+
+
+
+
+
+
+
+/* ---------- MEDIA QUERIES --------- */
+
+@media screen and (max-width: 1440px) {
+
+
+    .header-or {
+        max-width: 100%;
+       background-size: cover !important;
+       background-repeat: no-repeat !important;
+       
+    }
+
+    .header-jd {
+        max-width: 100%;
+       background-size: cover !important;
+       background-repeat: no-repeat !important;
+       
+    }
+    
+  
+    
+    
+    
+    }
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .header-or {
+        height: 280px;
+        max-width: 100%;
+       background-size: 100% !important;
+       background-repeat: no-repeat !important;
+       font-size: 80px;
+    }
+
+    .header-jd {
+        height: 280px;
+        max-width: 100%;
+       background-size: 100% !important;
+       background-repeat: no-repeat !important;
+       font-size: 80px;
+    }
+
+    .artista-banner {
+        font-size: 70px;
+    }
+    
+
+
+
+    @media screen and (max-width: 560px) {
+
+
+        .header-or {
+            height: 210px;
+            max-width: 100%;
+           background-size: 100% !important;
+           background-repeat: no-repeat !important;
+        }
+
+        .header-jd {
+            height: 210px;
+            max-width: 100%;
+           background-size: 100% !important;
+           background-repeat: no-repeat !important;
+        }
+
+    @media screen and (max-width: 425px) {
+
+
+        .header-or {
+            height: 150px;
+            max-width: 100%;
+           background-size: 100% !important;
+           background-repeat: no-repeat !important;
+        }
+
+        .artista-banner {
+            font-size: 40px;
+        }
+
+        .header-jd {
+            height: 150px;
+            max-width: 100%;
+           background-size: 100% !important;
+           background-repeat: no-repeat !important;
+        }
+
+        .artista-banner {
+            font-size: 40px;
+        }
+    
+
+
+
+
+
+
+}
+
+}

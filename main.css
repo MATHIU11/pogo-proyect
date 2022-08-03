@@ -179,3 +179,45 @@ body {
     top: 0;
     left: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- MEDIA QUERIES --------- */
+
+@media screen and (max-width: 768px) {
+
+    .navbar-toggler {
+        color: rgb(255, 255, 255) !important;
+        background-color: rgb(70, 70, 70) !important;
+        margin: 0 20px 0 30px;
+    }
+
+    img {
+        margin-left: 2px !important;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h1 span {
+        font-size: 80px;
+        }
+
+
+
+
+
+}
