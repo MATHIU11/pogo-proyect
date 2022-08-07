@@ -16,7 +16,7 @@
     width: max-content !important;
     width: 100% !important;
 
-    position: sticky;
+    position: sticky !important;
     top: 0px;
    }
 
@@ -54,8 +54,69 @@
     
 }
 
-h1 {
+.collapse {
+
+    color: white !important;
+}
+
+
+/* ESTILOS ARTISTAS */
+
+
+.header-or {
+    height: 500px;
+    border-radius: 40px;
+    margin: 0px 40px 30px 40px;
+    max-width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url(https://www.tvinsider.com/wp-content/uploads/2022/03/olivia-rodrigo-driving-home-2-u-a-sour-film.jpeg);
+ 
+    background-repeat: no-repeat;
+}
+
+.header-jd {
+    height: 500px;
+    border-radius: 40px;
+    margin: 0px 40px 30px 40px;
+    max-width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url(https://prowly-uploads.s3.eu-west-1.amazonaws.com/uploads/landing_page/cover_photo/60594/8844e57983a6c013d0871b57a233277d.jpg);
+
+}
+
+body {
+    background-color: rgb(0, 0, 0) !important;
+    color: white;
+}
+
+main {
     background-color: black;
+    color: white;
+}
+
+.artista-banner {
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    margin: 20px;
+    background-color: none !important;
+    font-family: 'Nunito Sans', sans-serif !important;
+
+}
+
+
+
+.h1-artista {
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
+
+/*LISTO CSS ARTISTAS */ 
+
+
+
+h1 {
+
     color: rgb(255, 255, 255);
     font-size: 150px;
     font-family: 'Nunito Sans', sans-serif;
@@ -63,27 +124,29 @@ h1 {
 }
 
 h1 span {
-    background-color: black;
+
     color: #29b91c;
     font-size: 150px;
     font-family: 'Nunito Sans', sans-serif;
 }
 
+
+
 h2 {
-    background-color: black;
+
     color: rgb(255, 255, 255);
     background-size:auto;
     background-repeat: no-repeat;
     padding: auto;
     margin: 0px 10px 10px 50px;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 60px;
+    font-size: 30px;
     border-radius: 5px; 
     display: inline-block;
 }
 
 h3 {
-    background-color: black;
+
     color: rgb(255, 255, 255);
     font-size: 35px;
     font-family: 'Nunito Sans', sans-serif;
@@ -181,9 +244,12 @@ body {
 }
 
 
+
+
 .d-block {
 
     max-width: 90% !important;
+
 }
 
 
@@ -192,10 +258,30 @@ body {
 
 
 
-
-
-
 /* ---------- MEDIA QUERIES --------- */
+
+@media screen and (max-width: 1440px) {
+
+
+    .header-or {
+        max-width: 100%;
+       background-size: cover !important;
+       background-repeat: no-repeat !important;
+       
+    }
+
+    .header-jd {
+        max-width: 100%;
+       background-size: cover !important;
+       background-repeat: no-repeat !important;
+       
+    }
+    
+  
+    
+    
+    
+    }
 
 @media screen and (max-width: 768px) {
 
@@ -223,14 +309,80 @@ body {
         font-size: 80px;
         }
 
+.navbar-nav {
+    margin: 10px !important;
+}
+
+.header-or {
+    height: 280px;
+    max-width: 100%;
+   background-size: 100% !important;
+   background-repeat: no-repeat !important;
+   font-size: 80px;
+}
+
+.header-jd {
+    height: 280px;
+    max-width: 100%;
+   background-size: 100% !important;
+   background-repeat: no-repeat !important;
+   font-size: 80px;
+}
+
+.artista-banner {
+    font-size: 70px;
+}
 
 
+@media screen and (max-width: 560px) {
 
 
+    .header-or {
+        height: 210px;
+        max-width: 100%;
+       background-size: 100% !important;
+       background-repeat: no-repeat !important;
+    }
 
+    .header-jd {
+        height: 210px;
+        max-width: 100%;
+       background-size: 100% !important;
+       background-repeat: no-repeat !important;
+    }
+
+@media screen and (max-width: 425px) {
+
+
+    .header-or {
+        height: 150px;
+        max-width: 100%;
+       background-size: 100% !important;
+       background-repeat: no-repeat !important;
+    }
+
+    .artista-banner {
+        font-size: 40px;
+    }
+
+    .header-jd {
+        height: 150px;
+        max-width: 100%;
+       background-size: 100% !important;
+       background-repeat: no-repeat !important;
+    }
+
+    .artista-banner {
+        font-size: 40px;
+    }
 
 
 }
+}
+
+}
+
+
 
 @media screen and (max-width: 425px) {
 
@@ -240,5 +392,9 @@ body {
         max-width: 150px !important;
     }
 
+
+    .navbar-nav {
+        margin: 10px !important;
+    }
 
 }

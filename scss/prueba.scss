@@ -16,7 +16,7 @@
     width: max-content !important;
     width: 100% !important;
 
-    position: sticky;
+    position: sticky !important;
     top: 0px;
   
 
@@ -182,9 +182,11 @@ body {
     left: 0;
 }
 
+
 .d-block {
 
     max-width: 90% !important;
+
 }
 
 
@@ -223,7 +225,9 @@ body {
         font-size: 80px;
         }
 
-
+        .navbar-nav {
+            margin: 10px !important;
+        }
 
 
 
@@ -234,6 +238,9 @@ body {
     img {
         margin-left: 2px !important;
         max-width: 150px !important;
+    }
+    .navbar-nav {
+        margin: 10px !important;
     }
 
 }
