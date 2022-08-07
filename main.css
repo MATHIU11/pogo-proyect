@@ -181,6 +181,11 @@ body {
 }
 
 
+.d-block {
+
+    max-width: 90% !important;
+}
+
 
 
 
