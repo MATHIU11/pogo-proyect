@@ -125,16 +125,31 @@ body {
   left: 0; }
 
 /* ---------- MEDIA QUERIES --------- */
+
+
 @media screen and (max-width: 768px) {
   .navbar-toggler {
     color: white !important;
     background-color: #464646 !important;
     margin: 0 20px 0 30px; }
   img {
-    margin-left: 2px !important; }
+    margin-left: 2px !important;
+  max-width: 200px; }
   h1 {
     font-size: 80px; }
   h2 {
     font-size: 40px; }
   h1 span {
     font-size: 80px; } }
+
+    
+@media screen and (max-width: 425px) {
+
+
+  img {
+      margin-left: 2px !important;
+      max-width: 150px !important;
+  }
+
+
+}

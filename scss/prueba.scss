@@ -204,6 +204,7 @@ body {
 
     img {
         margin-left: 2px !important;
+        max-width: 200px;
     }
 
     h1 {
@@ -221,5 +222,14 @@ body {
 
 
 
+
+}
+@media screen and (max-width: 425px) {
+
+
+    img {
+        margin-left: 2px !important;
+        max-width: 150px !important;
+    }
 
 }
