@@ -21,6 +21,46 @@ instagram: #ca16d7,
 
 // Extend
 
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.h1-artista {
+    @extend h1 ;
+
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
+h1 span {
+    @extend h1 ;
+    
+    color: #29b91c;
+    font-size: 150px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+// Mixins
+
+@mixin header {
+    height: 500px;
+    border-radius: 40px;
+    margin: 0px 40px 30px 40px;
+    max-width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.header-or {
+    @include header;
+}
+
+.header-jd {
+    @include header;
+}
+
 
 
 

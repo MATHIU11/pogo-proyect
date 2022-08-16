@@ -1,0 +1,24 @@
+- index.html
+
+    -Agregue Keywords: "pogo, recitales, artistas, entradas, fechas, web developer, HTML, CSS, REACT, JS, UX, UI, Argentina, Shows, Tour, tours, gira, latinoarmerica"
+
+    - Agregue Description: "Somos POGO, enterate de los shows de tus artistas favoritos!"
+
+    - Agregue Favicon: "imagenes/logomini.png"
+
+    - Agregue footer:       <li class="red-twitter">twitter</li>
+                            <li class="red-facebook">facebook</li>
+                            <li class="red-instagram">instagram</li>
+
+- main.scss
+
+    - Agregue Operaciones:  $medida-1: 100px;
+                            $medida-2: 50px;
+    - Agregue Mapas: $redes
+
+    - Agregue Extend: h1, h1-artista, h1 span
+
+    Agregue Mixin:  - header 
+                    - .header-or 
+                    - .header-jd
+                    

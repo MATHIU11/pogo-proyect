@@ -7,9 +7,33 @@
 .red-instagram {
   color: #ca16d7; }
 
-  .redes {
-    margin: 20px;
-  }
+h1, .h1-artista, h1 span {
+  color: white;
+  font-size: 150px;
+  font-family: 'Nunito Sans', sans-serif; }
+
+.h1-artista {
+  font-size: 40px;
+  font-family: 'Nunito Sans', sans-serif !important; }
+
+h1 span, .h1-artista span {
+  color: #29b91c;
+  font-size: 150px;
+  font-family: 'Nunito Sans', sans-serif; }
+
+.header-or {
+  height: 500px;
+  border-radius: 40px;
+  margin: 0px 40px 30px 40px;
+  max-width: 100%;
+  color: white; }
+
+.header-jd {
+  height: 500px;
+  border-radius: 40px;
+  margin: 0px 40px 30px 40px;
+  max-width: 100%;
+  color: white; }
 
 * {
   margin: 0;
@@ -40,12 +64,12 @@
     margin-right: 10% !important;
     margin-left: 800px !important; }
 
-h1 {
+h1, .h1-artista, h1 span {
   background-color: black;
   color: white;
   font-size: 150px;
   font-family: 'Nunito Sans', sans-serif; }
-  h1 h1 span {
+  h1 h1 span, .h1-artista h1 span, h1 .h1-artista span, .h1-artista .h1-artista span, h1 span span {
     background-color: black;
     color: #29b91c;
     font-size: 150px;
@@ -149,11 +173,11 @@ body {
   img {
     margin-left: 2px !important;
     max-width: 200px; }
-  h1 {
+  h1, .h1-artista, h1 span {
     font-size: 80px; }
   h2 {
     font-size: 40px; }
-  h1 span {
+  h1 span, .h1-artista span {
     font-size: 80px; }
   .navbar-nav {
     margin: 10px !important; } }

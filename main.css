@@ -1,3 +1,40 @@
+.red-twitter {
+    color: #168ad7; }
+  
+  .red-facebook {
+    color: #07194a; }
+  
+  .red-instagram {
+    color: #ca16d7; }
+  
+  h1, .h1-artista, h1 span {
+    color: white;
+    font-size: 150px;
+    font-family: 'Nunito Sans', sans-serif; }
+  
+  .h1-artista {
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif !important; }
+  
+  h1 span, .h1-artista span {
+    color: #29b91c;
+    font-size: 150px;
+    font-family: 'Nunito Sans', sans-serif; }
+
+
+    .header-or {
+        height: 500px;
+        border-radius: 40px;
+        margin: 0px 40px 30px 40px;
+        max-width: 100%;
+        color: white; }
+      
+      .header-jd {
+        height: 500px;
+        border-radius: 40px;
+        margin: 0px 40px 30px 40px;
+        max-width: 100%;
+        color: white; }
 
 * {
     margin: 0;
