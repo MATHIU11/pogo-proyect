@@ -6,8 +6,23 @@
 
 }
 
+.red-twitter {
+    color: #168ad7; }
+  
+  .red-facebook {
+    color: #07194a; }
+  
+  .red-instagram {
+    color: #ca16d7; }
+  
 
+.redes {
+    margin: 80px;
+    padding: 20px;
+    justify-content: space-around;
+    font-size: 40px !important;
 
+  }
 
 
 .navbar {

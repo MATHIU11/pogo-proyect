@@ -1,3 +1,28 @@
+// Operaciones
+
+$medida-1: 100px;
+$medida-2: 50px;
+
+// Mapas
+$redes: (
+twitter: #168ad7,
+facebook: #07194a,
+instagram: #ca16d7,
+);
+
+@each $red, $color in $redes {
+    .red-#{$red} {
+        color: $color;
+    }
+}
+
+
+
+
+// Extend
+
+
+
 
 * {
     margin: 0;
@@ -109,57 +134,57 @@ ul {
 .img-jd {
     height: auto;
     width: auto;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: $medida-1*5 !important;
+    max-height: $medida-1*5 !important;
 }
 
 .img-or {
     height: auto;
     width: auto;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: $medida-1*5 !important;
+    max-height: $medida-1*5 !important;
 }
 
 .img-wo {
     height: auto;
     width: auto;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: $medida-1*5 !important;
+    max-height: $medida-1*5 !important;
 }
 
 .img-bb {
     height: auto;
     width: auto;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: $medida-1*5 !important;
+    max-height: $medida-1*5 !important;
 }
 
 .img-fviol {
     height: auto;
     width: auto;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: $medida-1*2 !important;
+    max-height: $medida-1*2 !important;
 }
 
 .img-fnj {
     height: auto;
     width: auto;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: $medida-1*2 !important;
+    max-height: $medida-1*2 !important;
 }
 
 .img-fcel {
     height: auto;
     width: auto;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: $medida-1*2 !important;
+    max-height: $medida-1*2 !important;
 }
 
 .img-fverd {
     height: auto;
     width: auto;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: $medida-1*2 !important;
+    max-height: $medida-1*2 !important;
 }
 
 
