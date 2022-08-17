@@ -1,7 +1,3 @@
- /*CSS INDEX PRINCIPAL Y OLIVIA RODRIGO*/
-/*body {
-    height: 100%;
-}*/
 
 .nav-link {
     color: white;
@@ -111,10 +107,6 @@ body {
     background-color: #000000;
     color: rgb(255, 255, 255);
     height: 120px;
-    /*display: flex;
-    justify-content: center;
-    align-content: space-between;
-    align-items: center;*/
     display: inline-block;
     
     
@@ -129,7 +121,6 @@ body {
  .banner-olivia {
     display: flex;
     align-content: flex-end;
-    /*justify-content: space-between;*/
     height: 500px;
     border-radius: 40px;
     margin: 0px 40px 30px 40px;
@@ -139,7 +130,6 @@ body {
  .banner-drexler {
     display: flex;
     align-content: flex-end;
-    /*justify-content: space-between;*/
     height: 500px;
     border-radius: 40px;
     margin: 0px 40px 30px 40px;
@@ -148,12 +138,6 @@ body {
  
  
  ul li {
-  /*  display: inline-block;
-    background-color: white;
-    height: 300px;
-    border-radius: 60px;
-    width: 200px;
-    margin: 10px 60px; */
     text-align: center;
     color: #000000;
     
@@ -253,29 +237,15 @@ ul {
 
 div {
     background-color: black;
-    margin: 0 100px 0 20px; /*poner el 80px en 100px cuando sepa lo de la barra tipo netflix */
+    margin: 0 100px 0 20px; 
     
 }  
 
-/*
-
-td {
-    display: inline-block;
-    align-content: center;
-    justify-content: space-between;
-    margin: 15px;
-
-}
-*/
 
 header {
     background-color: black;
 }
 
-
-/*ul {
-    background-color: black;
-}*/
 
 html {
     background-color: black;
@@ -298,30 +268,7 @@ html {
     "fechas fechas ubicacion ubicacion"     
     ;
     
-
- 
-    /*grid-template-rows: 30% auto auto;
-
-    grid-template-columns: 50%;
-    /*grid-template-rows: 100px 80px;
-    justify-content: space-between;
-    align-content: space-around; 
-    margin: 50px;*/
    }
-
-/*.buscador {
-    padding: 20px;
-    justify-content: center;
-    width: 1700px;
-    height: 600px;
-    border-radius: 60px;
-    margin: 10px 60px;
-    text-align: center;
-    /*margin: 50px;
-    justify-content: baseline;
-   
-}
- */
 
 
 .artistas {
@@ -330,19 +277,9 @@ html {
     margin: 20px;
     border-radius: 60px;
     text-align: left;
-    padding-top: 330px;
+    padding-top: 280px;
     padding-left: 50px;
-    
-    
    
-   /*
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 1700px;
-    height: 600px;
-    border-radius: 60px;
-    margin: 10px 60px;
-    text-align: center;
-*/    
 }
 
 .tendencias {
@@ -353,21 +290,7 @@ html {
     text-align: left;
     padding-top: 110px;
     padding-left: 50px; 
-
-     
-  
-    /*
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
-    width: 80%;
-    height: 25%;
-    border-radius: 60px;
-    margin: 50px 50px 100px 100px;
-    order: 5;
-
-    text-align: center;
-   */
-    
+   
 }
 
 
@@ -380,16 +303,6 @@ html {
     text-align: left;
     padding-top: 110px;
     padding-left: 50px;
-  
-    /*
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
-    width: 1700px;
-    height: 600px;
-    border-radius: 60px;
-    margin: 10px 60px;
-    text-align: center;
-*/
 } 
 
 .fechas {
@@ -401,15 +314,6 @@ html {
     padding-top: 110px;
     padding-left: 50px;
 
-    /*
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
-    width: 1700px;
-    height: 600px;
-    border-radius: 60px;
-    margin: 10px 60px;
-    text-align: center;
-*/
 } 
 
 .ubicacion {
@@ -418,20 +322,9 @@ html {
     margin: 20px;
     border-radius: 60px;
     text-align: left;
-    padding-top: 330px;
+    padding-top: 280px;
     padding-left: 50px;
    
-
-    /*
-    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
-    width: 600px;
-    height: 600px;
-    border-radius: 60px;
-    margin: 10px 60px;
-    text-align: center;
-*/
 }
 
 
@@ -607,7 +500,7 @@ input {
 @media screen and (max-width: 425px) {
 
     input {
-        width: 250%;
+        width: 320% !important;
         height: 60px;
         border-radius: 10px;
         margin-bottom: 10px;
@@ -694,59 +587,5 @@ input {
             
 
 
-
-
-
-
-   /* td img {
-        height: 300px;
-        margin: auto;       
-    }    
-
-    .proximos {
-display: none;
-    }
-
-    ul li {
-        display: inline-block;
-        background-color: rgb(255, 255, 255);
-        height: 150px;
-        border-radius: 30px;
-        width: 110px;
-        margin: auto;
-        font-size: 60%;
-        font-family: 'Nunito Sans', sans-serif;
-
-    }
-
-    header h1 {
-        font-size: 100px;
-    }
-
-    h1 span {
-        font-size: 100px;
-    }
-
-    .primer-menu {
-    
-    padding: 40px 20px;
-    text-align:left;
-    font-size: 20px;
-    font-family: 'Nunito Sans', sans-serif;
-    
-    }
-
-    .primer-menu img {
-        width: 25%;
-
-    }
-
-    ul div {
-        width: 10px;
-        padding: 10px;
-        margin: 20px;
-    }
-
-
-     */   
+ 
 
