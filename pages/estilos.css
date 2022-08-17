@@ -385,14 +385,19 @@ li {
 div label {
     color: rgb(255, 255, 255);
     text-align:left;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Nunito Sans', sans-serif;
     margin: 10px;
 }
 
 input {
     font-size: 70px;
-    margin-top: 120px;
+}
+
+.input-group {
+    color: white !important;
+    font-size: 50px;
+    padding-top: 40px;
 }
 
 

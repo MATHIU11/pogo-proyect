@@ -202,6 +202,7 @@ h3 {
     color: rgb(255, 255, 255);
     font-size: 35px;
     font-family: 'Nunito Sans', sans-serif;
+
     
 }
 
@@ -305,6 +306,41 @@ body {
 }
 
 
+
+div label {
+    color: rgb(255, 255, 255);
+    text-align:left;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 20px;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+form {
+    font-size: 30px !important;
+    margin: 30px;
+    padding: 40px !important;
+}
+
+.input-group {
+    color: white !important;
+    font-size: 50px;
+    padding-top: 40px;
+    margin: 20px;
+    max-width: 80% !important;
+
+}
+
+.sexo {
+    margin-left: 20px;
+    margin-top: 50px;
+}
 
 
 

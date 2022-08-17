@@ -164,6 +164,25 @@ body {
 .d-block {
   max-width: 90% !important; }
 
+  
+div label {
+  color: rgb(255, 255, 255);
+  text-align:left;
+  font-size: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 10px;
+}
+
+input {
+  font-size: 70px;
+}
+
+.input-group {
+  color: white !important;
+  font-size: 50px;
+  padding-top: 40px;
+}
+
 /* ---------- MEDIA QUERIES --------- */
 @media screen and (max-width: 768px) {
   .navbar-toggler {
