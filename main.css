@@ -276,6 +276,58 @@ ul {
     max-height: 200px;
 }
 
+.carousel-item {
+    margin-left: 500px;
+    height: auto;
+    width: auto;
+    max-width: 1000px;
+    max-height: 1000px;
+
+}
+
+p {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 30px !important;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h5 {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 45px !important;
+    font-weight: bold;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img-carousel {
+    border-radius: 45px;
+    height: auto;
+    width: auto;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+.carousel-control-prev {
+    color: white !important;
+    background-color: white !important;
+    border-radius: 90%;
+    max-width: 40px;
+    max-height: 40px;
+    margin: 15px;
+}
+
+.carousel-control-next {
+    color: white !important;
+    background-color: white !important;
+    border-radius: 90%;
+    max-width: 40px;
+    max-height: 40px;
+    margin: 15px;
+}
 
 
 
