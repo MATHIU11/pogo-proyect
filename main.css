@@ -292,7 +292,6 @@ p {
     text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 30px !important;
     font-weight: bold;
-   /* -webkit-text-stroke: 1px rgb(0, 0, 0);*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -301,7 +300,6 @@ h5 {
     text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 70px !important;
     font-weight: bold;
-   /* -webkit-text-stroke: 2px rgb(0, 0, 0); */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -541,6 +539,12 @@ form {
 
 }
 
+img {
+    margin-left: 2px !important;
+    max-width: 300px !important;
+
+} 
+
 
 @media screen and (max-width: 560px) {
 
@@ -564,9 +568,16 @@ form {
         height: auto;
         width: auto;
         max-width: 200px;
-        max-height: 300px;
+        max-height: 200px;
     
     }
+
+    img {
+        margin-left: 2px !important;
+        max-width: 250px !important;
+
+    } 
+
 
 @media screen and (max-width: 425px) {
 
@@ -597,39 +608,22 @@ form {
         margin-left: 100px;
         height: auto;
         width: auto;
-        max-width: 200px;
-        max-height: 300px;
+        max-width: 20px;
+        max-height: 200px;
     
     }
 
-
-}
-}
-
-}
-
-
-
-@media screen and (max-width: 425px) {
-
-
-/*    img {
+    img {
         margin-left: 2px !important;
         max-width: 150px !important;
-    }
-*/
 
-    .navbar-nav {
-        margin: 10px !important;
-    }
+    } 
 
-    .carousel-item {
-        margin-left: 100px;
-        height: auto;
-        width: auto;
-        max-width: 200px;
-        max-height: 300px;
-    
-    }
+
 
 }
+}
+
+}
+
+
