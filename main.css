@@ -68,7 +68,7 @@
     width: max-content !important;
     width: 100% !important;
 
-    position: sticky !important;
+    position: sticky; z-index: 100 !important;
     top: 0px;
    }
 
