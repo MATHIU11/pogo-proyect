@@ -44,17 +44,20 @@
 }
 
 .red-twitter {
-    color: #168ad7; }
+    color: #168ad7;
+    margin: 15px; }
   
   .red-facebook {
-    color: #07194a; }
+    color: #07194a;
+    margin: 15px; }
   
   .red-instagram {
-    color: #ca16d7; }
+    color: #ca16d7;
+    margin: 15px; }
   
 
 .redes {
-    margin: 80px;
+    margin: 30px;
     padding: 20px;
     justify-content: space-around;
     font-size: 40px !important;
@@ -212,9 +215,9 @@ ul {
     list-style-type: none;
     
     display: flex;
+    justify-content: start !important;
     align-items: center;
     justify-content: space-between;
-        
 }
 
 .collapse {
@@ -346,6 +349,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
+    margin: 150px !important;
 }
 
 
@@ -394,7 +398,17 @@ form {
     margin-top: 50px;
 }
 
+.carousel-inner {
+    margin: 80px !important;
+}
 
+.img-fviol {
+    margin: 20px !important;
+}
+
+.img-fnj {
+    margin: 20px !important;
+}
 
 
 
@@ -441,28 +455,21 @@ form {
 
     @media screen and (max-width: 991px) {
 
-    /*
-        img {
-            margin-left: 2px !important;
-            max-width: 200px !important;
-    
-        } */
+
         
         p {
             color: white;
             text-shadow: black 0.1em 0.1em 0.2em;
-            font-size: 30px !important;
+            font-size: 20px !important;
             font-weight: bold;
-            -webkit-text-stroke: 1px rgb(0, 0, 0);
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         
         h5 {
             color: white;
             text-shadow: black 0.1em 0.1em 0.2em;
-            font-size: 45px !important;
+            font-size: 25px !important;
             font-weight: bold;
-            -webkit-text-stroke: 2px rgb(0, 0, 0);
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         
@@ -488,11 +495,7 @@ form {
         margin: 0 20px 0 30px;
     }
 
-  /*  img {
-        margin-left: 2px !important;
-        max-width: 200px !important;
 
-    } */
 
     h1 {
         font-size: 80px;
