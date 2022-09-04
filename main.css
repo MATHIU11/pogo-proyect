@@ -114,6 +114,13 @@
     color: white !important;
 }
 
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-navbar-color);
+    --bs-nav-link-hover-color: rgba(154, 154, 154, 0.7);
+}
 
 /* ESTILOS ARTISTAS */
 
